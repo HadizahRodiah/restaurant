@@ -8,7 +8,7 @@ import * as Icons from 'react-bootstrap-icons';
 const Home = () => {
 
   return (
-           <div className='bg-gradient-to-r from-green-300 to-slate-200 text-black py-20 px-8 md:px-18 lg:px-24 ' id='home'>
+           <div className='bg-gradient-to-r from-green-300 to-slate-200 text-black py-20' id='home'>
              <div className='flex flex-col py-14 justify-between md:flex-col items-center md:space-x-12'>
                 <h1 className='justify-center font-bold text-4xl text-yellow-900'>Almas royy <span className='text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-900 to-green-800'>Food</span> Estate</h1>
            <p className='text-justify p-10'>Welcome to ALMAS food estate and Restaurant, nothing serious about this application just for learning purpose

@@ -9,7 +9,7 @@ import * as Icons from 'react-bootstrap-icons';
 
 const Review = () => {
   return (
-    <div>
+     <div className='py-20'>
 <div className='p-10 bg-green-100 flex flex-col flex-wrap justify-between py-12 md:flex-row' id='review'>
     <div className='w-100 py-10 text-center flex flex-col justify-between md:flex-col items-center md:space-x-12'>
    <Icons.PencilSquare width={150} height={100} className='round rounded-full text-yellow-900 shadow-lg m-10'/>

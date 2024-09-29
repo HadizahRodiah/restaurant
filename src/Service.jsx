@@ -8,6 +8,7 @@ import pack from './assets/pack.jpg'
 import * as Icons from 'react-bootstrap-icons';
 const Service = () => {
   return (
+    <div className='py-20'>
     <div className=' py-20 bg-gradient-to-r from-green-300 to-slate-200 text-yellow-800 px-8 md:px-18 lg:px-24 ' id='service'>
     <div className='flex flex-col py-14 justify-between md:flex-col items-center  md:space-x-12'>
     <Icons.Screwdriver width={96} height={96} className='text-yellow-700'/>
@@ -20,7 +21,7 @@ const Service = () => {
   <figcaption className="figure-caption font-bold text-black mr-7">Fast and swift delivery</figcaption>
  </figure>
  
-<figure className="card p-10 bg-green-300 m-10">
+<figure className="card  bg-green-300 m-10">
 <Icons.Clock width={40} height={40} className='text-black bg-yellow-800 rounded rounded-full ml-20'/>
   <img src={Clock} width={200} height={200}  className="figure-img img-fluid rounded" alt="..."/>
   <figcaption className="figure-caption font-bold text-black  mr-7">Our service is 24/7</figcaption>
@@ -31,7 +32,7 @@ const Service = () => {
   <figcaption className="figure-caption font-bold text-black  mr-7">a quality and swift customer service</figcaption>
 </figure>
 
-<figure className=" card bg-green-300 p-10  m-10">
+<figure className=" card bg-green-300   m-10">
 <Icons.CashStack width={40} height={40} className='text-black bg-yellow-800 rounded rounded-full ml-20'/>
 <img src={Imo} width={200} height={200}  className="figure-img img-fluid rounded" alt="..."/>
   <figcaption className="figure-caption font-bold text-black  mr-7">very Affordable delicacy</figcaption>
@@ -41,11 +42,12 @@ const Service = () => {
   <img src={Ime} width={200} height={200}  className="figure-img img-fluid rounded" alt="..."/>
   <figcaption className="figure-caption font-bold text-black  mr-7">Our delicacies are served and delivered Hot</figcaption>
 </figure>
-<figure className="card bg-green-300  p-10 m-10">
+<figure className="card bg-green-300   m-10">
 <Icons.Box2Heart width={40} height={40} className='text-black bg-yellow-800 rounded rounded-full ml-20'/>
   <img src={pack} width={200} height={200}  className="figure-img img-fluid rounded" alt="..."/>
   <figcaption className="figure-caption font-bold text-black  mr-7">Nice and disposable Packaging</figcaption>
 </figure>
+</div>
 </div>
 </div>
 </div>

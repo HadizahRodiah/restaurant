@@ -5,7 +5,7 @@ import Imf from './assets/Imf.jpg'
 
 const Reserve = () => {
   return (
-    
+     <div className='py-20'>
 <div className='py-20 bg-gradient-to-r from-green-300 to-slate-200 flex flex-col flex-wrap md:flex-row' id='reserve'>
     <div className='w-100 py-10 text-center flex flex-col justify-between md:flex-col items-center md:space-x-12'>
    <Icons.Table width={150} height={100} className='round rounded-full text-yellow-900 shadow-lg m-10'/>
@@ -52,6 +52,7 @@ const Reserve = () => {
 <div classNameName='bg-green-200'>
     <img src={Imf}/>
 </div>
+    </div>
     </div>
     </div>
   )
