@@ -3,9 +3,9 @@ import * as Icons from 'react-bootstrap-icons';
 
 const Nav = () => {
   return (
-    <nav className='bg-green-100 text-black border border-black px-8 md:px-16 lg:px-24 w-full z-4'>
+    <nav className='pl-10 bg-green-100 text-black border border-black px-8 md:px-16 lg:px-24 w-full z-4'>
     <div className='container mt-2 py-2 flex justify-center md:justify-between item-center'>
-        <div className='text-2xl font-bolder flex flex-row md:inline md:flex-row'>
+        <div className='text-2xl font-bolder flex flex-row hidden md:inline md:flex-row'>
         <Icons.Star width={40} height={40} className='text-yellow-700'/>
         </div>
         <div className='space-x-6 font-bold'>

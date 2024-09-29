@@ -3,7 +3,7 @@ import * as Icons from 'react-bootstrap-icons';
 
 const Footer = () => {
   return (
-    <div className='bg-green-900 hover:slate-300 text-black px-8 md:px-18 lg:px-24 ' id='footer'>
+    <div className=' pl-10 bg-green-900 hover:slate-300 text-black px-8 md:px-18 lg:px-24 ' id='footer'>
         <div className="card bg-green-900 flex flex-col py-14 justify-between md:flex-col items-center md:space-x-12" >
   <div className="card-header bg-white text-3xl font-bold">
     FOOTER
