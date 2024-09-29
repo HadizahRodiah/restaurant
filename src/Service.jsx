@@ -8,7 +8,7 @@ import pack from './assets/pack.jpg'
 import * as Icons from 'react-bootstrap-icons';
 const Service = () => {
   return (
-    <div className=' pl-10 bg-gradient-to-r from-green-300 to-slate-200 text-yellow-800 px-8 md:px-18 lg:px-24 ' id='service'>
+    <div className=' py-20 bg-gradient-to-r from-green-300 to-slate-200 text-yellow-800 px-8 md:px-18 lg:px-24 ' id='service'>
     <div className='flex flex-col py-14 justify-between md:flex-col items-center  md:space-x-12'>
     <Icons.Screwdriver width={96} height={96} className='text-yellow-700'/>
        <h1 className='text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-900 to-green-800'>Our Service</h1>
