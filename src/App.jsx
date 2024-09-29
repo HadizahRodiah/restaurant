@@ -19,7 +19,6 @@ function App() {
 <Menu/>
 <Good/>
 <Reserve/>
-<Service/>
 <Review/>
 <Footer/>
     </>

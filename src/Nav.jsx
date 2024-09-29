@@ -10,7 +10,6 @@ const Nav = () => {
         </div>
         <div className='space-x-6 font-bold'>
         <a href="#home" className='hover:text-yellow-700'>Home</a>
-        <a href="#service" className='hover:text-yellow-700'>Service</a>
         <a href="#menu" className='hover:text-yellow-700'>Menu</a>
         <a href="#order" className='hover:text-yellow-700'>Order</a>
         <a href="#review" className='hover:text-yellow-700'>Review</a>
