@@ -4,8 +4,7 @@ import * as Icons from 'react-bootstrap-icons';
 
 const Menu = () => {
   return (
-   <div className='py-20'>
-    <div className='bg-gradient-to-r  from-green-300 to-slate-200 flex flex-col flex-wrap justify-between py-20 md:flex-row' id='menu'>
+    <div className='bg-white-300 flex flex-col flex-wrap justify-between w-full md:flex-row' id='menu'>
     <div className='w-100 py-10 text-center flex flex-col justify-between md:flex-col items-center md:space-x-12'>
    <Icons.BookHalf width={150} height={100} className='round rounded-full text-yellow-900 shadow-lg m-10'/>
  <span className=' font-bold text-5xl text-transparent bg-clip-text bg-gradient-to-r from-yellow-700 to-green-900'>Menu</span> <span className='text-3xl text-yellow-900'>let's Cook!</span></div>
@@ -36,7 +35,7 @@ const Menu = () => {
          </ul>    
   </div>
   </div>
-   </div>
+   
   )
 }
 
